@@ -1,0 +1,22 @@
+.home{
+    width:100vw;
+    height:100vh;
+}
+
+.card-container{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(12rem,15rem));
+    gap:20px;
+    padding-left:5px;
+    padding-right:5px;
+
+}
+
+.card-container .error{
+
+    width: 90vw;
+    text-align: center;
+    font-size: 30px;
+}
